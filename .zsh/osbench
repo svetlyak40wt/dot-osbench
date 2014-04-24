@@ -1,0 +1,7 @@
+if [[ -e /opt/osbench/bin ]]; then
+   export PATH=/opt/osbench/bin:$PATH
+fi
+
+if [[ -e ~/osbench/bin ]]; then
+   export PATH=~/osbench/bin:$PATH
+fi
